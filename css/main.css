@@ -202,6 +202,9 @@ footer span {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
 	}
+	.section-three {
+		text-align: center;
+	}
 	
 }
 
