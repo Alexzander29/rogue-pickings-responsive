@@ -50,7 +50,6 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height:100px;
 	margin:0;
 	width:100%;
 	display:flex;
