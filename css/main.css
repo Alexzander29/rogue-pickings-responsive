@@ -50,7 +50,8 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	width:100%; 
+	margin:0;
+	width:100%;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -62,7 +63,7 @@ header {
 header h1 {
 	width:100%;
 	margin: 0;
-	padding:1em;
+	padding:1em 0;
 	border-bottom: 3px solid #77a466;
 	text-align: center;
 
@@ -141,7 +142,7 @@ header nav ul li a{
 }
 
 .section-one h4 {
-	padding: 10px 30px;
+	padding: 10px 0;
 }
 
 /*.section-two {
@@ -159,7 +160,7 @@ header nav ul li a{
 	padding: 0;
 }
 .menu li {
-	padding: 10px 30px;
+	padding: 10px 0;
 	color:#77a466;
 }
 
@@ -202,14 +203,12 @@ footer span {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
 	}
-	.section-three {
-		text-align: center;
-	}
 	
 }
 
 @media all and (min-width:1200px) {
 	header {
+		height: 100px;
 		display: flex;
 		flex-direction: row;
 	}
