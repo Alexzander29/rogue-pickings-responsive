@@ -208,6 +208,7 @@ footer span {
 
 @media all and (min-width:1200px) {
 	header {
+		height: 100px;
 		display: flex;
 		flex-direction: row;
 	}
